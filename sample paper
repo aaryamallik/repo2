@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Styled Question Paper</title>
+    <style>
+        
+        body {
+            background-color: #f5f5dc; 
+            font-family: 'Arial', sans-serif; 
+            color: #333; 
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 70%;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #800000; 
+        }
+        .question {
+            margin-bottom: 20px;
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        .options {
+            margin-top: 10px;
+        }
+        .options label {
+            display: block;
+            margin-bottom: 5px;
+            font-size: 14px;
+        }
+        .submit-button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #800000; 
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .submit-button:hover {
+            background-color: #b22222;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Sample Question Paper</h1>
+
+    
+    <div class="question">
+        <p>1. What is the capital of France?</p>
+        <div class="options">
+            <label><input type="radio" name="q1" value="a"> A) Madrid</label>
+            <label><input type="radio" name="q1" value="b"> B) Berlin</label>
+            <label><input type="radio" name="q1" value="c"> C) Paris</label>
+            <label><input type="radio" name="q1" value="d"> D) Lisbon</label>
+        </div>
+    </div>
+
+    
+    <div class="question">
+        <p>2. Which planet is known as the Red Planet?</p>
+        <div class="options">
+            <label><input type="radio" name="q2" value="a"> A) Earth</label>
+            <label><input type="radio" name="q2" value="b"> B) Mars</label>
+            <label><input type="radio" name="q2" value="c"> C) Jupiter</label>
+            <label><input type="radio" name="q2" value="d"> D) Saturn</label>
+        </div>
+    </div>
+
+    
+    <div class="question">
+        <p>3. What is the largest ocean on Earth?</p>
+        <div class="options">
+            <label><input type="radio" name="q3" value="a"> A) Atlantic Ocean</label>
+            <label><input type="radio" name="q3" value="b"> B) Indian Ocean</label>
+            <label><input type="radio" name="q3" value="c"> C) Arctic Ocean</label>
+            <label><input type="radio" name="q3" value="d"> D) Pacific Ocean</label>
+        </div>
+    </div>
+    
+     <div class="question">
+        <p>4. What is the derivative of sinx?</p>
+        <div class="options">
+            <label><input type="radio" name="q3" value="a"> A) cosx</label>
+            <label><input type="radio" name="q3" value="b"> B) sinx</label>
+            <label><input type="radio" name="q3" value="c"> C) -sinx</label>
+            <label><input type="radio" name="q3" value="d"> D) -cosx</label>
+        </div>
+    </div>
+    
+   <div class="question">
+        <p>5. What is the chemical formula of sulfuric acid?</p>
+        <div class="options">
+            <label><input type="radio" name="q3" value="a"> A)H2SO4</label>
+            <label><input type="radio" name="q3" value="b"> B) HN03</label>
+            <label><input type="radio" name="q3" value="c"> C) HCL</label>
+            <label><input type="radio" name="q3" value="d"> D)NONE</label>
+        </div>
+    </div>
+    
+    <div class="question">
+        <p>6. What is the integration of 1/x?</p>
+        <div class="options">
+            <label><input type="radio" name="q3" value="a"> A)logx</label>
+            <label><input type="radio" name="q3" value="b"> B) sinx</label>
+            <label><input type="radio" name="q3" value="c"> C)cosx</label>
+            <label><input type="radio" name="q3" value="d"> D)tanx</label>
+        </div>
+    </div>
+    
+     <div class="question">
+        <p>7. What is the integration of cotx?</p>
+        <div class="options">
+            <label><input type="radio" name="q3" value="a"> A)sinx</label>
+            <label><input type="radio" name="q3" value="b"> B) -sinx</label>
+            <label><input type="radio" name="q3" value="c"> C)cosx</label>
+            <label><input type="radio" name="q3" value="d"> D)tanx</label>
+        </div>
+    </div>
+    
+     <div class="question">
+        <p>8. Where is mount everest located?</p>
+        <div class="options">
+            <label><input type="radio" name="q3" value="a"> A)Nepal</label>
+            <label><input type="radio" name="q3" value="b"> B) bhutan</label>
+            <label><input type="radio" name="q3" value="c"> C)china</label>
+            <label><input type="radio" name="q3" value="d"> D)japan</label>
+        </div>
+    </div>
+    
+      <div class="question">
+        <p>9. What is the default display value of <div> element?</p>
+        <div class="options">
+            <label><input type="radio" name="q3" value="a"> A)block</label>
+            <label><input type="radio" name="q3" value="b"> B)inline</label>
+            <label><input type="radio" name="q3" value="c"> C)inline-block</label>
+            <label><input type="radio" name="q3" value="d"> D)none</label>
+        </div>
+        </div>
+        
+     <div class="question">
+        <p>10. Which property is used to style list markers in css?</p>
+        <div class="options">
+            <label><input type="radio" name="q3" value="a"> A)list-style-type</label>
+            <label><input type="radio" name="q3" value="b"> B)list-style-position</label>
+            <label><input type="radio" name="<q3" value="c"> C)datalist</label>
+            <label><input type="radio" name="q3" value="d"> D)none</label>
+        </div>
+        </div>
+    
+    
+    <button class="submit-button" onclick="submitQuiz()">Submit</button>
+</div>
+
+<script>
+    function submitQuiz() {
+        
+        const questions = document.querySelectorAll('.question');
+        let allAnswered = true;
+
+        
+        questions.forEach((question, index) => {
+            const options = question.querySelectorAll('input[type="radio"]');
+            let answered = false;
+
+            options.forEach(option => {
+                if (option.checked) {
+                    answered = true;
+                }
+            });
+
+            if (!answered) {
+                alert(Please answer question ${index + 1});
+                allAnswered = false;
+                return; 
+            }
+        });
+
+        
+        if (allAnswered) {
+            alert('Thank you for submitting the quiz!');
+        }
+    }
+</script>
+
+</body>
+</html>
